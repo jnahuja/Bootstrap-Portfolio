@@ -1,0 +1,308 @@
+/**
+ First External CSS Stylesheet
+ **/
+
+/*
+Each of these CSS elements is associated with an HTML Element, Class, or ID.
+Flip between this CSS file and the HTML to see how things line up.
+Experiment with deleting lines of code from the CSS to see how it affects the webpage when you refresh in the browser.
+*/
+
+/* body {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #333;
+  background: #efeee7;
+} */
+
+.Header {
+  background-color: #ffffff;
+  width: 100%;
+  border-bottom: 2px solid #cccccc;
+}
+
+/* Header information copied into the .nav class to supplement bootstrap classes.*/
+/* .nav {
+  background-color: #ffffff;
+  width: 100%;
+  border-bottom: 2px solid #cccccc;
+} */
+
+/* .header-container {
+  padding-left: 60px;
+  padding-right: 60px;
+} */
+
+.nav {
+  padding: 0;
+  /* width: 960px;
+  height: 80px;
+  margin: auto; */
+  /* padding-left: 60px;
+  padding-right: 60px; */
+  /* margin-left: 60px;
+  margin-right: 60px; */
+}
+
+.nav-left {
+  background-color: #4aaaa5;
+  /* padding: 10px 20px 10px 20px; */
+  padding: 20px;
+  margin: 0;
+  /* width: 180px; */
+  /* height: 55px; */
+  /* padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 25px; */
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  /* float: left; */
+  /* padding: 20px 0;
+  margin-right: 100px;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #eee;
+  text-align: center; */
+}
+
+#nav-left-text {
+  color: white;
+  margin-bottom: 0;
+}
+
+#nav-right-text {
+  color: #777777;
+  margin-bottom: 0;
+}
+
+.nav-right {
+  /* width: 220px; */
+  height: 55px;
+  float: left;
+  /* padding-top: 25px;
+  margin-left: 540px; */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #777777;
+}
+
+/* .nav-h3 */
+h3 {
+  float: left;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #777777;
+}
+
+a:hover {
+  color: blue;
+}
+
+#About {
+  border-right: 1px solid #dddddd;
+}
+
+#Portfolio {
+  border-right: 1px solid #dddddd;
+}
+
+.MainSectionIndex {
+  /* width: 958px; */
+  /* height: 550px; */
+  background: #ffffff;
+  margin: 0 auto;
+  margin-top: 45px;
+  /* border-color: #dddddd; */
+  border: 1px solid #dddddd;
+}
+
+.MainSectionPortfolio {
+  /* width: 958px;
+  height: 620px; */
+  background: #ffffff;
+  margin: 0 auto;
+  margin-top: 45px;
+  /* border-color: #dddddd; */
+  border: 1px solid #dddddd;
+}
+
+.MainSectionContact {
+  /* width: 958px;
+  height: 600px; */
+  background: #ffffff;
+  margin: 0 auto;
+  margin-top: 45px;
+  /* border-color: #dddddd; */
+  border: 1px solid #dddddd;
+}
+
+body {
+  /* background: #eeeeee; */
+  background-image: url("../images/dust_scratches/dust_scratches.png");
+  /* width: 100%; */
+  overflow: hidden;
+}
+#MainHolder {
+  padding: 40px;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  /* float: left; */
+}
+
+/* .Biography {
+  float: left;
+} */
+
+#MainHeader {
+  color: #4aaaa5;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #cccccc;
+  margin-bottom: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+#BioContent, #PortfolioContent, #ContactForm {
+  overflow: auto;
+}
+
+#BioImage {
+  float: left;
+  padding-top: 10px;
+  padding-right: 40px;
+}
+
+.MyStory {
+  /* float: left; */
+  line-height: 2.5;
+  color: #777777;
+  /* padding-left: 240px; */
+}
+
+#p1, #p2 {
+  line-height: 2.5;
+  color: #777777;
+}
+
+.imgHolder {
+  /* overflow: auto; */
+  position: relative;
+  float: left;
+  padding-right: 40px;
+  margin-bottom: 40px;
+}
+.span{
+  background: #4aaaa5;
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  bottom: 0px;
+  /* width: 160px;
+  height: 16px; */
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 10px;
+  /* z-index: 2; */
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  /* border-radius: 4px; */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4aaaa5;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  /* border-radius: 4px; */
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: blue;
+}
+
+
+/* .ImageLabel {
+  position: relative;
+  z-index: 2;
+} */
+
+.Footer {
+
+  /* left: 0; */
+  position: absolute;
+  /* width: 100%; */
+  bottom: 0;
+  text-align: center;
+  background-color: #666666;
+
+  width: 100%;
+  border-top: 5px solid #4aaaa5;
+  padding-top: 18px;
+}
+
+.FooterInner {
+  bottom: 0;
+  /* width: 250px;
+  height: 12px; */
+  margin: auto;
+  font-size: 12px;
+  color: white;
+  /* text-align: center; */
+  padding-bottom: 2px;
+}
+
+/* h2 {
+  font-size: 24px;
+}
+
+a {
+  color: #d21034;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+#main-bio,
+#contact-info,
+#bio-image {
+  float: left;
+}
+
+#main-bio {
+  width: 70%;
+}
+
+#contact-info {
+  width: 30%;
+}
+
+#bio-image {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+} */
